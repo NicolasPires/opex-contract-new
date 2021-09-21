@@ -1,0 +1,44 @@
+<mat-card>
+    <mat-card-title>Alterar Usuário</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Código" [(ngModel)]="objectOpUser.id" name="id">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="objectOpUser.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="E-mail" [(ngModel)]="objectOpUser.email" name="email">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="IsOpex" [(ngModel)]="objectOpUser.IsOpex" name="IsOpex">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Matricula" [(ngModel)]="objectOpUser.code_" name="code_">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="IsCapex" [(ngModel)]="objectOpUser.IsCapex" name="IsCapex">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="IsOpexSec" [(ngModel)]="objectOpUser.IsOpexSec" name="IsOpexSec">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="LastAccess" [(ngModel)]="objectOpUser.LastAccess" name="LastAccess">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+          <mat-label>Select me</mat-label>
+          <mat-select>
+            <mat-option value="option">Option</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+
+    </form>
+</mat-card>
+
+<button mat-raised-button (click)="updateObjectOpUser()" color="warn">
+    Atualizar
+</button>
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>

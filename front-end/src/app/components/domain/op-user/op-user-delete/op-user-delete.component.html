@@ -1,0 +1,40 @@
+<mat-card>
+    <mat-card-title>Excluir Usuário</mat-card-title>  
+    <form>
+        <mat-form-field>
+            <input matInput  placeholder="Código" [value]="objectOpUser.id" name="id" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="Nome"  [value]="objectOpUser.name" name="name" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="E-mail" [value]="objectOpUser.email" name="email" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="IsOpex"  [value]="objectOpUser.IsOpex" name="IsOpex" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="Matricula"  [value]="objectOpUser.code_" name="code_" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="IsCapex"  [value]="objectOpUser.IsCapex" name="IsCapex" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="IsOpexSec" [value]="objectOpUser.IsOpexSec" name="IsOpexSec" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="LastAccess" [value]="objectOpUser.LastAccess" name="LastAccess" disabled>
+        </mat-form-field>
+    </form>  
+</mat-card>
+
+<button mat-raised-button (click)="deleteObjectOpUser()" color="warn">
+    Excluir
+</button>
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>
+
+
+
+

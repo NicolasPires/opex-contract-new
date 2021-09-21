@@ -1,0 +1,39 @@
+<mat-card>
+    <mat-card-title>Novo Usuário</mat-card-title>  
+    <form action="">
+        <mat-form-field>
+            <input matInput  placeholder="Código" type="text" [(ngModel)]="objectOpUser.id" name="id">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="Nome" type="text" [(ngModel)]="objectOpUser.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="E-mail" type="text" [(ngModel)]="objectOpUser.email" name="email">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="IsOpex" type="text" [(ngModel)]="objectOpUser.IsOpex" name="IsOpex">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="Matricula" type="text" [(ngModel)]="objectOpUser.code_" name="code_">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="IsCapex" type="text" [(ngModel)]="objectOpUser.IsCapex" name="IsCapex">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="IsOpexSec" type="text" [(ngModel)]="objectOpUser.IsOpexSec" name="IsOpexSec">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput  placeholder="LastAccess" type="string" [(ngModel)]="objectOpUser.LastAccess" name="LastAccess">
+        </mat-form-field>
+    </form>  
+</mat-card>
+
+<button mat-raised-button (click)="createOpUser()" color="primary">
+    Salvar
+</button>
+<button mat-raised-button (click)="cancel()">
+    Cancelar
+</button>
+
+
+
