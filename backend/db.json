@@ -1,0 +1,72 @@
+{
+  "OpUsers": [
+    {
+      "name": "Alexandre Oliveira Dos Santos ",
+      "email": "alesantos@timbrasil.com.br",
+      "IsOpex": "Y",
+      "code_": "8027974",
+      "IsCapex": "N",
+      "IsOpexSec": "N",
+      "LastAccess": "21/12/18",
+      "id": 24,
+      "positionId": {
+        "name": "Consulta TI",
+        "scale": 3,
+        "id": 6,
+        "OpUserpositionId": []
+      },
+      "statusId": {
+        "name": "Ativo",
+        "id": 1,
+        "OpUserstatusId": [],
+        "SupllystatusIid": [],
+        "AreastatusId": [],
+        "CompanystatusId": [],
+        "ManagerstatusId": [],
+        "CorporateAreastatusId": [],
+        "CategorystatusId": []
+      },
+      "areaId": {
+        "groupAreaId": 46,
+        "consolidada": "GOV",
+        "name": "OP. GOVERNANCE & ASSURANCE MANAGEMENT",
+        "companyId": 2,
+        "managerId": 8,
+        "id": 23,
+        "expenditureId": null,
+        "OpUserareaId": [],
+        "statusId": null
+      }
+    },
+    {
+      "id": 2,
+      "name": "Alexandre Oliveira Dos Santos",
+      "email": "alesantos@timbrasil.com.br",
+      "is_opex": "Y",
+      "code": "8027974",
+      "is_capex": "N",
+      "is_opex_sec": "N",
+      "last_access": "21/12/18"
+    },
+    {
+      "id": 3,
+      "name": "Leonardo Lima Sanches",
+      "email": "lsanches@timbrasil.com.br",
+      "is_opex": "N",
+      "code": "8016525",
+      "is_capex": "Y",
+      "is_opex_sec": "Y",
+      "last_access": null
+    },
+    {
+      "id": "4",
+      "name": "Teste Usuario",
+      "email": "usuario@tim.com.br123123",
+      "IsOpex": "Y",
+      "code_": "300000",
+      "IsCapex": "N",
+      "IsOpexSec": "N",
+      "LastAccess": "12/01/2021"
+    }
+  ]
+}
